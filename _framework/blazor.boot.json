@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TelegramMiniApp",
   "resources": {
-    "hash": "sha256-VKlGXf8iJLIDlvahOuW9NKRh28OoE9xACcyamW5QSvk=",
+    "hash": "sha256-r4Y3eqlwzIBtmKuNdQ/oeoQ8LLQhhK8Nk9at4CtkiVg=",
     "jsModuleNative": {
       "dotnet.native.8.0.11.n1sf6xr5tz.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -42,13 +42,13 @@
       "System.Net.Http.wasm": "sha256-A7KqyFi+pAU+8cfI0Iu4SzXp4la2VSogYSSUOBs9ioQ=",
       "System.Net.Primitives.wasm": "sha256-ZCXZoFCbd0PTval9JzLmebsLeKJcH0EfBW1O3aIb6SI=",
       "System.Private.CoreLib.wasm": "sha256-8hgEqqzeg/qyR42PpiaFmr47n5prCj/MS9/+JC3EWAs=",
-      "System.Private.Uri.wasm": "sha256-Cfg5ccJwIVLM3hX6vByoP4ML4iD+0l2qZwY5gi8gNlk=",
+      "System.Private.Uri.wasm": "sha256-UyXL4ulbEOs5UX/c91MUkj2ONuiWiVPRW4KagC0eYvI=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-30ghYKtpOCjqvcER4dSQoX2HtxeLKOhREKuo0i6v2rs=",
-      "System.Runtime.wasm": "sha256-Pm4gZJLat2IpmyW5vLTgIRiD9RuhoSu40/PYWbgeVXo=",
+      "System.Runtime.wasm": "sha256-O9VzPDRRiPFNwBDNw7Hcs+3ymrmk9iJlNLZyAA7+Q6A=",
       "System.Text.Encodings.Web.wasm": "sha256-WfKm+69ytpkYln5CNXWqpnHWur1MjpXNefQpzkLFfo0=",
       "System.Text.Json.wasm": "sha256-MCEvGPGChDVzrhlwOMq++06jLnIywAmMxq1/IGtgj74=",
       "System.Text.RegularExpressions.wasm": "sha256-CHFZ6wJNvdsk1Q33Nj36SWEoxMf1d8WWIt7QpkqeGRY=",
-      "TelegramMiniApp.wasm": "sha256-m2BusyEf69OvF+WplfENEz8ZZAir1xOOuDNTGExJ/2A="
+      "TelegramMiniApp.wasm": "sha256-g6kXRZnKmJDh0cmKlfcnuH3FLZPEfv9jR2c/HXugGWA="
     }
   },
   "cacheBootResources": true,
