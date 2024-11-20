@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TelegramMiniApp",
   "resources": {
-    "hash": "sha256-mbTkpeDFPiwsK+xApL0WNhkJSrh5WhMHBH4QnskdWTo=",
+    "hash": "sha256-VKlGXf8iJLIDlvahOuW9NKRh28OoE9xACcyamW5QSvk=",
     "jsModuleNative": {
       "dotnet.native.8.0.11.n1sf6xr5tz.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -48,7 +48,7 @@
       "System.Text.Encodings.Web.wasm": "sha256-WfKm+69ytpkYln5CNXWqpnHWur1MjpXNefQpzkLFfo0=",
       "System.Text.Json.wasm": "sha256-MCEvGPGChDVzrhlwOMq++06jLnIywAmMxq1/IGtgj74=",
       "System.Text.RegularExpressions.wasm": "sha256-CHFZ6wJNvdsk1Q33Nj36SWEoxMf1d8WWIt7QpkqeGRY=",
-      "TelegramMiniApp.wasm": "sha256-teqTUtRAImDuhYLon17lyuGHDnnn8oKGfy6QHyNjuB4="
+      "TelegramMiniApp.wasm": "sha256-m2BusyEf69OvF+WplfENEz8ZZAir1xOOuDNTGExJ/2A="
     }
   },
   "cacheBootResources": true,
