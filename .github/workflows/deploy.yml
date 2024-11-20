@@ -21,7 +21,7 @@ jobs:
         run: ls -la
 
       - name: Publish .NET Project
-        run: dotnet publish -c Release -o release --nologo
+        run: dotnet publish TelegramMiniApp.csproj -c Release -o release --nologo  # Указали конкретный файл проекта
 
       - name: Change base-tag in index.html
         run: sed -i 's/<base href="\/"/<base href="\/MarlineIOS\/"/g' release/wwwroot/index.html
