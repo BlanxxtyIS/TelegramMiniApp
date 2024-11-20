@@ -26,3 +26,4 @@ namespace TelegramMiniApp.Services
             await _jsRuntime.InvokeVoidAsync("Telegram.WebApp.showAlert", message);
         }
     }
+}
