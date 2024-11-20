@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CE1BF601-9810-4D12-AEDC-86F167B30D92}|TelegramMiniApp.csproj|c:\\users\\zver\\desktop\\coursoranswer\\telegramminiapp\\deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CE1BF601-9810-4D12-AEDC-86F167B30D92}|TelegramMiniApp.csproj|solutionrelative:deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1BF601-9810-4D12-AEDC-86F167B30D92}|TelegramMiniApp.csproj|c:\\users\\zver\\desktop\\coursoranswer\\telegramminiapp\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1BF601-9810-4D12-AEDC-86F167B30D92}|TelegramMiniApp.csproj|solutionrelative:pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE1BF601-9810-4D12-AEDC-86F167B30D92}|TelegramMiniApp.csproj|c:\\users\\zver\\desktop\\coursoranswer\\telegramminiapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE1BF601-9810-4D12-AEDC-86F167B30D92}|TelegramMiniApp.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -26,15 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "deploy.yml",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\deploy.yml",
+              "RelativeDocumentMoniker": "deploy.yml",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\deploy.yml",
+              "RelativeToolTip": "deploy.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-11-20T17:03:52.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\Pages\\Weather.razor",
+              "RelativeToolTip": "Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T17:02:39.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Pages\\Home.razor",
@@ -47,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TelegramService.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\Services\\TelegramService.cs",
               "RelativeDocumentMoniker": "Services\\TelegramService.cs",
@@ -55,12 +93,11 @@
               "RelativeToolTip": "Services\\TelegramService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T16:37:12.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T16:37:12.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
@@ -68,12 +105,11 @@
               "RelativeToolTip": "wwwroot\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-20T16:36:32.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T16:36:32.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -81,8 +117,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T16:36:21.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T16:36:21.022Z"
             }
           ]
         }
