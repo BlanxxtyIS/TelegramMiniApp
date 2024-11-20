@@ -16,10 +16,10 @@ jobs:
           dotnet-version: '7.0.x'
 
       - name: Publish .NET Project
-        run: dotnet publish TelegramMiniApp.csproj -c Release -o release --nologo
+       run: dotnet publish TelegramMiniApp.csproj -c Release -o release --nologo
 
       - name: Change base-tag in index.html
-        run: sed -i 's/<base href="\/"/<base href="\/telegram-mini-app\/"/g' release/wwwroot/index.html
+        run: sed -i 's/<base href="\/"/<base href="\/TelegramMiniApp\/"/g' release/wwwroot/index.html
 
       - name: Add .nojekyll file
         run: touch release/wwwroot/.nojekyll
