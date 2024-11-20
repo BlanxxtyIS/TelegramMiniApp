@@ -1,0 +1,43 @@
+﻿@page "/"
+@using TelegramMiniApp.Services;
+
+@inject TelegramService TelegramService
+
+<h1>Telegram Mini App</h1>
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col">
+            <button class="btn btn-primary" @onclick="ShowUserName">Показать имя пользователя</button>
+        </div>
+    </div>
+
+    @if (!string.IsNullOrEmpty(_username))
+    {
+        <div class="alert alert-info">
+            Привет, @_username!
+        </div>
+    }
+</div>
+
+@code {
+    private string _username;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await TelegramService.InitializeAsync();
+    }
+
+    private async Task ShowUserName()
+    {
+        try
+        {
+            _username = await TelegramService.GetUserName();
+            await TelegramService.ShowAlert($"Ваше имя пользователя: {_username}");
+        }
+        catch (Exception ex)
+        {
+            await TelegramService.ShowAlert($"Ошибка: {ex.Message}");
+        }
+    }
+}
