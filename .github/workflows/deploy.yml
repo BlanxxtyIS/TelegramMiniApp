@@ -17,14 +17,14 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: List files
-        run: ls -la
-
       - name: Publish .NET Project
-        run: dotnet publish TelegramMiniApp.csproj -c Release -o release --nologo  # Указали конкретный файл проекта
+        run: dotnet publish TelegramMiniApp.csproj -c Release -o release --nologo
 
       - name: Change base-tag in index.html
-        run: sed -i 's/<base href="\/"/<base href="\/MarlineIOS\/"/g' release/wwwroot/index.html
+        run: sed -i 's/<base href="\/"/<base href="\/TelegramMiniApp\/"/g' release/wwwroot/index.html
+
+      - name: Copy index.html to 404.html
+        run: cp release/wwwroot/index.html release/wwwroot/404.html
 
       - name: Add .nojekyll file
         run: touch release/wwwroot/.nojekyll
@@ -33,3 +33,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: release/wwwroot
+          clean: true
