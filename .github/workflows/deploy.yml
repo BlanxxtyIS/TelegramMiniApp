@@ -7,6 +7,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v2
 
@@ -15,11 +17,13 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Publish .NET Project
-        run: dotnet publish TelegramMiniApp/TelegramMiniApp.csproj -c Release -o release --nologo
+      - name: List files  # Добавим шаг для проверки файлов
+        run: ls -la
 
-      - name: Copy index.html
-        run: cp release/wwwroot/index.html release/wwwroot/404.html
+      - name: Publish .NET Project
+        run: |
+          cd TelegramMiniApp
+          dotnet publish -c Release -o ../release --nologo
 
       - name: Change base-tag in index.html
         run: sed -i 's/<base href="\/"/<base href="\/TelegramMiniApp\/"/g' release/wwwroot/index.html
@@ -28,7 +32,6 @@ jobs:
         run: touch release/wwwroot/.nojekyll
 
       - name: Commit wwwroot to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
           folder: release/wwwroot
