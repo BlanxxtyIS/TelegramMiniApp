@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TelegramMiniApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3cab11b726b2e742a413059eeb70aded945e0c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+747b96af9ad4423f0c0b01e1b68f060ca85faf8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TelegramMiniApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TelegramMiniApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
