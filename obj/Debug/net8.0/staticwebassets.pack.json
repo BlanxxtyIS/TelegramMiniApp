@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Khasanov.MI\\Desktop\\PetGitProject\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\obj\\Debug\\net8.0\\compressed\\taqr42lrkf.gz",
+      "Id": "C:\\Users\\Khasanov.MI\\Desktop\\PetGitProject\\obj\\Debug\\net8.0\\compressed\\mp2f0yyewq.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TelegramMiniApp.styles.css",
+      "Id": "C:\\Users\\Khasanov.MI\\Desktop\\PetGitProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TelegramMiniApp.styles.css",
       "PackagePath": "staticwebassets\\TelegramMiniApp.styles.css"
     },
     {
-      "Id": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Khasanov.MI\\Desktop\\PetGitProject\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Khasanov.MI\\Desktop\\PetGitProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Khasanov.MI\\Desktop\\PetGitProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Khasanov.MI\\Desktop\\PetGitProject\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\Khasanov.MI\\Desktop\\PetGitProject\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Khasanov.MI\\Desktop\\PetGitProject\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Zver\\Desktop\\CoursorAnswer\\TelegramMiniApp\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\Khasanov.MI\\Desktop\\PetGitProject\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

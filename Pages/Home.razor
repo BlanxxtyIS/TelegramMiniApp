@@ -22,6 +22,12 @@
         </div>
     </div>
 
+    <div class="row mb-3">
+        <div class="col">
+            <button class="btn btn-primary" @onclick="ShowWeather">Показать погоду</button>
+        </div>
+    </div>
+
     @if (!string.IsNullOrEmpty(_username))
     {
         <div class="alert alert-info">
@@ -59,6 +65,15 @@
         }
         catch
         {
+            Console.WriteLine("Error");
+        }
+    }
+
+    private async Task ShowWeather() {
+        try {
+            NavigationManager.NavigateTo("/TelegramMiniApp/weather");
+        }
+        catch {
             Console.WriteLine("Error");
         }
     }
