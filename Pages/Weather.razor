@@ -9,6 +9,30 @@
 
 <p>This component demonstrates fetching data from the server.</p>
 
+<button class="button" @onclick="GoBack">
+    <svg class="svgIcon" viewBox="0 0 384 512">
+        <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3
+         32-32V141.l2L329 .4 ,246 .6 c +00 ,+00 ,.9,+00 ,.9,+00 ,
+        s -.9 ,-20 .,9 ,-20 .
+        ">
+        </path>
+    </svg>
+    Вернуться обратно
+</button>
+
+<div class="container">
+    <div class="cloud front">
+        <span class="left-front"></span>
+        <span class="right-front"></span>
+    </div>
+    <span class="sun sunshine"></span>
+    <span class="sun"></span>
+    <div class="cloud back">
+        <span class="left-back"></span>
+        <span class="right-back"></span>
+    </div>
+</div>
+
 @if (forecasts == null)
 {
     <p><em>Loading...</em></p>
@@ -55,5 +79,10 @@ else
         public string? Summary { get; set; }
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+
+    private async Task GoBack()
+    {
+        await JS.InvokeVoidAsync("history.back");
     }
 }
