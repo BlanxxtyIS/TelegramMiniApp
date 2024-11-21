@@ -13,39 +13,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = TelegramMiniApp
 build_property.RootNamespace = TelegramMiniApp
-build_property.ProjectDir = C:\Users\Zver\Desktop\CoursorAnswer\TelegramMiniApp\
+build_property.ProjectDir = C:\Users\Khasanov.MI\Desktop\PetGitProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Zver\Desktop\CoursorAnswer\TelegramMiniApp
+build_property.MSBuildProjectDirectory = C:\Users\Khasanov.MI\Desktop\PetGitProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Zver/Desktop/CoursorAnswer/TelegramMiniApp/App.razor]
+[C:/Users/Khasanov.MI/Desktop/PetGitProject/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zver/Desktop/CoursorAnswer/TelegramMiniApp/Pages/Counter.razor]
+[C:/Users/Khasanov.MI/Desktop/PetGitProject/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zver/Desktop/CoursorAnswer/TelegramMiniApp/Pages/Home.razor]
+[C:/Users/Khasanov.MI/Desktop/PetGitProject/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zver/Desktop/CoursorAnswer/TelegramMiniApp/Pages/Weather.razor]
+[C:/Users/Khasanov.MI/Desktop/PetGitProject/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zver/Desktop/CoursorAnswer/TelegramMiniApp/_Imports.razor]
+[C:/Users/Khasanov.MI/Desktop/PetGitProject/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Zver/Desktop/CoursorAnswer/TelegramMiniApp/Layout/MainLayout.razor]
+[C:/Users/Khasanov.MI/Desktop/PetGitProject/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-41j29co3nx
 
-[C:/Users/Zver/Desktop/CoursorAnswer/TelegramMiniApp/Layout/NavMenu.razor]
+[C:/Users/Khasanov.MI/Desktop/PetGitProject/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-185uc0pdbb

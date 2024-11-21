@@ -1,5 +1,7 @@
 ﻿@page "/"
 @using TelegramMiniApp.Services;
+@inject TelegramService TelegramService
+@inject NavigationManager NavigationManager
 
 @inject TelegramService TelegramService
 
@@ -11,6 +13,12 @@
     <div class="row mb-3">
         <div class="col">
             <button class="btn btn-primary" @onclick="ShowUserName">Показать имя пользователя</button>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col">
+            <button class="btn btn-primary" @onclick="ShowCounter">Показать страницу счетчика</button>
         </div>
     </div>
 
@@ -40,6 +48,18 @@
         catch (Exception ex)
         {
             await TelegramService.ShowAlert($"Ошибка: {ex.Message}");
+        }
+    }
+
+    private async Task ShowCounter()
+    {
+        try
+        {
+            NavigationManager.NavigateTo("/counter");
+        }
+        catch
+        {
+            Console.WriteLine("Error");
         }
     }
 }
